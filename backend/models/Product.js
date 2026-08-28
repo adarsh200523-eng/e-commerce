@@ -11,4 +11,4 @@ const productSchema = new mongoose.Schema({
   numReviews: { type: Number, default: 0 }
 }, { timestamps: true });
 
-module.exports = mongoose.model('Product', productSchema);
+module.exports = mongoose.model('Product', productSchema); 
