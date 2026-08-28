@@ -11,3 +11,4 @@ router.route('/').get(getProducts).post(protect, admin, upload.single('image'), 
 router.route('/:id').get(getProductById).put(protect, admin, upload.single('image'), updateProduct).delete(protect, admin, deleteProduct);
 
 module.exports = router;
+ 
