@@ -9,7 +9,7 @@ const getProducts = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-
+ 
 const getProductById = async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);
