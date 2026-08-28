@@ -7,7 +7,7 @@ const createOrder = async (req, res) => {
       key_id: process.env.RAZORPAY_KEY_ID,
       key_secret: process.env.RAZORPAY_KEY_SECRET,
     });
-    
+     
     // Razorpay accepts amount in paise
     const options = {
       amount: req.body.amount * 100,
