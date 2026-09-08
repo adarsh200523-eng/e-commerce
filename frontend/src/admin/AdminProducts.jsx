@@ -12,7 +12,7 @@ const AdminProducts = () => {
       const data = await res.json();
       setProducts(Array.isArray(data) ? data : []);
     };
-    fetchProducts();
+    fetchProducts(); 
   }, []);
 
   const handleDelete = async (id) => {
