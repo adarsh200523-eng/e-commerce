@@ -3,7 +3,7 @@ import { AuthContext } from '../context/AuthContext';
 
 const AdminOrders = () => {
   const { user } = useContext(AuthContext);
-  const [orders, setOrders] = useState([]);
+  const [orders, setOrders] = useState([]); 
 
   useEffect(() => {
     const fetchOrders = async () => {
