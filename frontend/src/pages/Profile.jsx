@@ -8,7 +8,7 @@ const Profile = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  useEffect(() => { 
     if (!user) {
       navigate('/login');
       return;
