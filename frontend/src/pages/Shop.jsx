@@ -7,7 +7,7 @@ const Shop = () => {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
 
-  useEffect(() => {
+  useEffect(() => { 
     const fetchProducts = async () => {
       try {
         const res = await fetch('/api/products');
