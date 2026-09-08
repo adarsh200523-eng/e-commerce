@@ -5,7 +5,7 @@ const AdminOrders = () => {
   const { user } = useContext(AuthContext);
   const [orders, setOrders] = useState([]); 
 
-  useEffect(() => {
+  useEffect(() => { 
     const fetchOrders = async () => {
       const res = await fetch('/api/orders', {
         headers: { Authorization: `Bearer ${user.token}` }
