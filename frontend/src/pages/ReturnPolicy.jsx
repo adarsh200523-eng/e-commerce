@@ -9,7 +9,7 @@ const textualStyle = {
   border: '1px solid rgba(255, 255, 255, 0.05)',
   lineHeight: '1.8',
   color: '#a1a1aa'
-};
+}; 
 
 const ReturnPolicy = () => {
   return (
