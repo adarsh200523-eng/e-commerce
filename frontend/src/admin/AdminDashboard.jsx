@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const AdminDashboard = () => {
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
-  const [stats, setStats] = useState(null);
+  const [stats, setStats] = useState(null); 
 
   useEffect(() => {
     if (!user || user.role !== 'admin') {
