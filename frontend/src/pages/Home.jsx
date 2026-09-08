@@ -11,7 +11,7 @@ const Home = () => {
         const res = await fetch('/api/products');
         const data = await res.json();
         setProducts(data.slice(0, 4)); // Featured products
-      } catch (error) {
+      } catch (error) { 
         console.error(error);
       } finally {
         setLoading(false);
