@@ -9,7 +9,7 @@ const OrderSuccess = () => {
     background: '#18181b',
     borderRadius: '16px',
     border: '1px solid rgba(255, 255, 255, 0.05)',
-    boxShadow: '0 10px 40px rgba(0,0,0,0.5)',
+    boxShadow: '0 10px 40px rgba(0,0,0,0.5)', 
     textAlign: 'center'
   };
 
