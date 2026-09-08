@@ -6,7 +6,7 @@ const textualStyle = {
   padding: '40px',
   background: '#18181b',
   borderRadius: '16px',
-  border: '1px solid rgba(255, 255, 255, 0.05)',
+  border: '1px solid rgba(255, 255, 255, 0.05)', 
   lineHeight: '1.8',
   color: '#a1a1aa'
 };
