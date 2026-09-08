@@ -6,7 +6,7 @@ import { clearCart } from '../redux/cartSlice';
 
 const Checkout = () => {
   const { user } = useContext(AuthContext);
-  const cartItems = useSelector((state) => state.cart.cartItems);
+  const cartItems = useSelector((state) => state.cart.cartItems); 
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
