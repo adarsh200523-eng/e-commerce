@@ -4,7 +4,7 @@ import { AuthContext } from '../context/AuthContext';
 const AdminUsers = () => {
   const { user } = useContext(AuthContext);
   const [users, setUsers] = useState([]);
-
+ 
   useEffect(() => {
     const fetchUsers = async () => {
       const res = await fetch('/api/auth/users', {
